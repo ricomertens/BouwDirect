@@ -1,0 +1,17 @@
+body{
+    h1 {
+        color: rgb(0, 0, 0);
+    }
+}
+a.winkelWagenKnop {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #eeff00;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
