@@ -114,15 +114,17 @@ h2 {
     }
 }
 
-
-
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    gap: 8px;
+
 }
 
 .blok {
-    margin-top: -62px;
-    padding: 1px;
+    text-align: middle;
     width: 150px;
+    margin: 10px;
+    padding: 1px;
+    margin-top: -45px;
 }
