@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+.hero {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+}
+
+.cta-btn {
+  background: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.voordelen, .prijzen {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.voordelen div {
+  margin: 10px 0;
+}
+
+.prijskaart {
+  background: #fff;
+  margin: 10px auto;
+  padding: 15px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.highlight {
+  border: 2px solid #ffcc00;
+}
+
+.footer-cta {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
