@@ -5,7 +5,7 @@ body{
 }
 a.winkelWagenKnop {
     position: absolute;
-    top: 60px;
+    top: 55px;
     right: 20px;
     padding: 10px 20px;
     border: 2px solid rgb(0, 0, 0);
@@ -17,7 +17,7 @@ a.winkelWagenKnop {
     
 a.inloggen {
     position: absolute;
-    top: 60px;
+    top: 55px;
     right: 150px;
     padding: 10px 20px;
     border: 2px solid black;
