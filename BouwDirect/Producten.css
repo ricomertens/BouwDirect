@@ -16,17 +16,7 @@ a.winkelWagenKnop {
     border-radius: 5px;
 }
 
-a.inloggen {
-    position: absolute;
-    top: 55px;
-    right: 150px;
-    padding: 10px 20px;
-    border: 2px solid black;
-    background-color: #eeff00;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 5px;
-}
+
 
 
 h1 {
