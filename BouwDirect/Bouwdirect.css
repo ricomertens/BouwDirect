@@ -1,66 +1,75 @@
+
 body {
-    h1 {
-    
-        color: rgb(0, 0, 0);
-    }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
+
 
 a.winkelWagenKnop {
     position: absolute;
     top: 55px;
     right: 20px;
     padding: 10px 20px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #000;
     background-color: #eeff00;
-    color: rgb(0, 0, 0);
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.inloggen {
+    position: absolute;
+    top: 55px;
+    right: 150px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background-color: #eeff00;
+    color: #000;
     text-decoration: none;
     border-radius: 5px;
 }
 
 
-
 h1 {
-    margin-top: 0px;
+    margin: 0;
     font-size: 44px;
-    text-shadow: black 1px 1px 2px;
+    text-shadow: 1px 1px 2px black;
     background-color: rgb(173, 173, 173);
+    text-align: center;
+    padding: 15px 0;
 }
 
 h2 {
-    margin-top: -30px;
+    margin-top: 10px;
     font-size: 24px;
     background-color: rgb(213, 213, 213);
 }
 
-
 .topnav {
     overflow: hidden;
-    background-color: #ff0000;
+    background-color: red;
 }
-
 
 .topnav a {
     float: left;
     display: block;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-
 .topnav a:hover {
-    background-color: #ff0000;
-    color: rgb(255, 251, 0);
+    background-color: red;
+    color: yellow;
 }
-
 
 .topnav a.active {
     background-color: #eaff00;
-    color: rgb(0, 0, 0);
+    color: black;
 }
-
 
 .topnav input[type=text] {
     float: right;
@@ -72,47 +81,20 @@ h2 {
 }
 
 
-@media screen and (max-width: 600px) {
-
-    .topnav a,
-    .topnav input[type=text] {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-
-    .topnav input[type=text] {
-        border: 1px solid #ccc;
-    }
-
-
-    .topnav a,
-    .topnav input[type=text] {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-
-    .topnav input[type=text] {
-        border: 1px solid #ccc;
-    }
-}
-
-
-
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 900px;
 }
 
 .blok {
-    margin-top: -182px;
-    padding: 1px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
     width: 150px;
 }
